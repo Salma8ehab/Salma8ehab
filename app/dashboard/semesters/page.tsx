@@ -118,7 +118,7 @@ const page = () => {
 
                 <Input
                   type="file"
-                  placeholder="Image"
+                  placeholder="Image..."
                   onChange={(e) => setImageEn(e.target.files?.[0] || null)}
                   accept="image/*"
                 />
